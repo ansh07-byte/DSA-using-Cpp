@@ -10,3 +10,5 @@ int main() {
         cout << ele << " ";
     }
 }
+
+// limitation of for each loop is that it can only traverse sequentially thats set
