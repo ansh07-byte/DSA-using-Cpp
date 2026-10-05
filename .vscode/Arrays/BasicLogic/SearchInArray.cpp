@@ -16,7 +16,6 @@ int main(){
         flag = 1;
         break;
     }
-
     if (flag == 1){
         cout<< " Element found";
     }

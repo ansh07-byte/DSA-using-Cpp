@@ -19,9 +19,14 @@ using namespace std;
 
 // 2nd method (swap mtd)
 int main(){
-    int arr[] = { 0,1,0,1,0,1,0,1};
-    int n = sizeof(arr) / sizeof(arr[0]);
-    int i = 0,j=n-1;
+    int n;
+    cin>> n;
+    int arr[n];
+    for(int i = 0;i<n;i++){
+        cin>> arr[i];
+    }
+    int N = sizeof(arr) / sizeof(arr[0]);
+    int i = 0,j=N-1;
     while (i<j){
         if(arr[i] == 0) i++;
         else if(arr[j] == 1) j--;
